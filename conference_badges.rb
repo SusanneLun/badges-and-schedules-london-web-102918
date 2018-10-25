@@ -10,8 +10,6 @@ end
 
 def assign_rooms(array)
   room_no = []
-  array.each_with_index { |name, i|  room_no << 
-  
-  "Hello, #{name}! You'll be assigned to room #{room}!"
+  array.each_with_index { |name, i|  room_no << "Hello, #{name}! You'll be assigned to room #{i + 1}!"
 
  
