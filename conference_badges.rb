@@ -10,7 +10,7 @@ end
 
 def assign_rooms(array)
   hash = Hash.new
-  each_with_index( do { |name, index| 
+  each_with_index(array) do { |name, index| 
   hash[name] = index 
    "Hello, #{name}! You'll be assigned to room #{idx + 1}!"}
 end 
