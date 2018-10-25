@@ -8,7 +8,7 @@ def batch_badge_creator(array)
     name_list
 end
 
-def assign_rooms
+def assign_rooms(array)
   room_no = []
   array.each_with_index { |name, i|  room_no << 
   
