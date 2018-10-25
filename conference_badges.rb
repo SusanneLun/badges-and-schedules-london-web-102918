@@ -3,8 +3,10 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(name)
+  i = 0
   loop do
-    name
+    i < name.length
+    i = +=
 puts "Hello, my name is #{name}."
 end
 end
