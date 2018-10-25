@@ -9,11 +9,15 @@ def batch_badge_creator(array)
 end
 
 def assign_rooms(array)
-  room_no = []
-  array.each_with_index do { |name, idx| 
-  room_no << "Hello, #{name}! You'll be assigned to room #{idx + 1}!"}
+  hash = Hash.new
+  array.each_with_index do { |name, index| 
+  hash[name] << "Hello, #{name}! You'll be assigned to room #{idx + 1}!"}
 end 
 room_no
 end 
 
- 
+ hash = Hash.new
+%w(cat dog wombat).each_with_index { |item, index|
+  hash[item] = index
+}
+hash   #=> {"cat"=>0, "dog"=>1, "wombat"=>2}
