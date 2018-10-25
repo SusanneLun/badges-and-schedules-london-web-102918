@@ -8,4 +8,6 @@ def batch_badge_creator(array)
     name_list
 end
 
+
+
  
