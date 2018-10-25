@@ -21,6 +21,7 @@ batch_badge_creator(array).each do |badge|
   assign_rooms(array).each do |your_room|
     puts your_room
   end
+end
   
 
   
